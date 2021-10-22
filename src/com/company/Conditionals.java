@@ -35,7 +35,6 @@ public class Conditionals {
             } else {
                 return false;
             }
-
         }
         else{
             if (x>0 && y>0){
@@ -48,5 +47,16 @@ public class Conditionals {
                 return true;
             }
         }
+    }
+    public static boolean pickUpPhone(boolean isMorning, boolean isMom, boolean isAsleep){
+
+
+        if (isAsleep == true){
+            return false;
+        }
+         if (isMom == true){
+             return true;
+         }
+
     }
 }
